@@ -1,0 +1,36 @@
+# OPA bundles
+*.tar.gz
+bundle.tar.gz
+
+# OPA build artifacts
+/.opa/
+/build/
+
+# Coverage reports
+coverage.json
+coverage/
+
+# Test results
+test-results.json
+
+# Compiled WASM
+*.wasm
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories (if using package managers)
+vendor/
+
+# Local configuration overrides
+*.local.rego
+.env
+.env.local
